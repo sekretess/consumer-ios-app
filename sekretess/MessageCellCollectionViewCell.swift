@@ -8,5 +8,11 @@
 import UIKit
 
 class MessageCellCollectionViewCell: UICollectionViewCell {
+    @IBOutlet weak var  label1: UILabel?
+    @IBOutlet weak var  label2: UILabel?
     
+    func update(sender: String, messageBrief:String){
+        label1?.text = sender
+        label2?.text = messageBrief
+    }
 }

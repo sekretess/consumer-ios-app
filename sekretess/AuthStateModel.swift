@@ -6,3 +6,14 @@
 //
 
 import Foundation
+import SwiftData
+
+@Model
+class AuthStateModel{
+    var authState: String
+    
+    init(authState: String) {
+        self.authState = authState
+    }
+    
+}

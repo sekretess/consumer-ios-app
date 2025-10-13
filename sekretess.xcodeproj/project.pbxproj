@@ -6,6 +6,15 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		16FCC17D0EC56506DFBEB126 /* Pods_sekretess_sekretessUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0E9317995CD5A38384F0174 /* Pods_sekretess_sekretessUITests.framework */; };
+		3464E92610928336544C45EC /* Pods_sekretess.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 238E16D87A21AB7A3F3B2E86 /* Pods_sekretess.framework */; };
+		4AEBEBBB2E9836C2007DE798 /* AppAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 4AEBEBBA2E9836C2007DE798 /* AppAuth */; };
+		4AEBEBBD2E9836C2007DE798 /* AppAuthCore in Frameworks */ = {isa = PBXBuildFile; productRef = 4AEBEBBC2E9836C2007DE798 /* AppAuthCore */; };
+		4AEBEBBF2E9836FB007DE798 /* LibSignalClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AEBEBBE2E9836FB007DE798 /* LibSignalClient.framework */; };
+		A906AD4144B611659B857186 /* Pods_sekretessTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3562884C12ACC9C2636FE250 /* Pods_sekretessTests.framework */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		4A9522222E81B09400355F69 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,9 +33,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00AE82493CE49138A07F982B /* Pods-sekretessTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sekretessTests.debug.xcconfig"; path = "Target Support Files/Pods-sekretessTests/Pods-sekretessTests.debug.xcconfig"; sourceTree = "<group>"; };
+		238E16D87A21AB7A3F3B2E86 /* Pods_sekretess.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_sekretess.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3562884C12ACC9C2636FE250 /* Pods_sekretessTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_sekretessTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A95220B2E81B09300355F69 /* sekretess.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sekretess.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A9522212E81B09400355F69 /* sekretessTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sekretessTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A95222B2E81B09400355F69 /* sekretessUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sekretessUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AEBEBBE2E9836FB007DE798 /* LibSignalClient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = LibSignalClient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CF048DCDA73AE7257B8FD2F /* Pods-sekretessTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sekretessTests.release.xcconfig"; path = "Target Support Files/Pods-sekretessTests/Pods-sekretessTests.release.xcconfig"; sourceTree = "<group>"; };
+		9D36169D14741CE5390675F2 /* Pods-sekretess.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sekretess.release.xcconfig"; path = "Target Support Files/Pods-sekretess/Pods-sekretess.release.xcconfig"; sourceTree = "<group>"; };
+		C13A83E73B4E3F8B2FF33591 /* Pods-sekretess.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sekretess.debug.xcconfig"; path = "Target Support Files/Pods-sekretess/Pods-sekretess.debug.xcconfig"; sourceTree = "<group>"; };
+		D1E9EDC155AD2C85B290F307 /* Pods-sekretess-sekretessUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sekretess-sekretessUITests.release.xcconfig"; path = "Target Support Files/Pods-sekretess-sekretessUITests/Pods-sekretess-sekretessUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E501CF691B4218AA62C32F08 /* Pods-sekretess-sekretessUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sekretess-sekretessUITests.debug.xcconfig"; path = "Target Support Files/Pods-sekretess-sekretessUITests/Pods-sekretess-sekretessUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F0E9317995CD5A38384F0174 /* Pods_sekretess_sekretessUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_sekretess_sekretessUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -65,6 +84,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4AEBEBBB2E9836C2007DE798 /* AppAuth in Frameworks */,
+				4AEBEBBF2E9836FB007DE798 /* LibSignalClient.framework in Frameworks */,
+				4AEBEBBD2E9836C2007DE798 /* AppAuthCore in Frameworks */,
+				3464E92610928336544C45EC /* Pods_sekretess.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +95,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A906AD4144B611659B857186 /* Pods_sekretessTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,12 +103,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16FCC17D0EC56506DFBEB126 /* Pods_sekretess_sekretessUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1768CE19C6A14D913EA0A8F9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C13A83E73B4E3F8B2FF33591 /* Pods-sekretess.debug.xcconfig */,
+				9D36169D14741CE5390675F2 /* Pods-sekretess.release.xcconfig */,
+				E501CF691B4218AA62C32F08 /* Pods-sekretess-sekretessUITests.debug.xcconfig */,
+				D1E9EDC155AD2C85B290F307 /* Pods-sekretess-sekretessUITests.release.xcconfig */,
+				00AE82493CE49138A07F982B /* Pods-sekretessTests.debug.xcconfig */,
+				7CF048DCDA73AE7257B8FD2F /* Pods-sekretessTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		4A9522022E81B09300355F69 = {
 			isa = PBXGroup;
 			children = (
@@ -92,6 +130,8 @@
 				4A9522242E81B09400355F69 /* sekretessTests */,
 				4A95222E2E81B09400355F69 /* sekretessUITests */,
 				4A95220C2E81B09300355F69 /* Products */,
+				1768CE19C6A14D913EA0A8F9 /* Pods */,
+				B32D00F891B6AD4DF124DF03 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +145,17 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		B32D00F891B6AD4DF124DF03 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4AEBEBBE2E9836FB007DE798 /* LibSignalClient.framework */,
+				238E16D87A21AB7A3F3B2E86 /* Pods_sekretess.framework */,
+				F0E9317995CD5A38384F0174 /* Pods_sekretess_sekretessUITests.framework */,
+				3562884C12ACC9C2636FE250 /* Pods_sekretessTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -112,9 +163,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4A9522342E81B09400355F69 /* Build configuration list for PBXNativeTarget "sekretess" */;
 			buildPhases = (
+				ACE146EA025A094754E09B33 /* [CP] Check Pods Manifest.lock */,
 				4A9522072E81B09300355F69 /* Sources */,
 				4A9522082E81B09300355F69 /* Frameworks */,
 				4A9522092E81B09300355F69 /* Resources */,
+				2B3BD7AF88B22C071875EBA8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -124,8 +177,6 @@
 				4A95220D2E81B09300355F69 /* sekretess */,
 			);
 			name = sekretess;
-			packageProductDependencies = (
-			);
 			productName = sekretess;
 			productReference = 4A95220B2E81B09300355F69 /* sekretess.app */;
 			productType = "com.apple.product-type.application";
@@ -134,6 +185,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4A9522392E81B09400355F69 /* Build configuration list for PBXNativeTarget "sekretessTests" */;
 			buildPhases = (
+				3C00384137625FE2E39F572A /* [CP] Check Pods Manifest.lock */,
 				4A95221D2E81B09400355F69 /* Sources */,
 				4A95221E2E81B09400355F69 /* Frameworks */,
 				4A95221F2E81B09400355F69 /* Resources */,
@@ -147,8 +199,6 @@
 				4A9522242E81B09400355F69 /* sekretessTests */,
 			);
 			name = sekretessTests;
-			packageProductDependencies = (
-			);
 			productName = sekretessTests;
 			productReference = 4A9522212E81B09400355F69 /* sekretessTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -157,9 +207,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4A95223C2E81B09400355F69 /* Build configuration list for PBXNativeTarget "sekretessUITests" */;
 			buildPhases = (
+				AB57595F0D2E3754F6E99E63 /* [CP] Check Pods Manifest.lock */,
 				4A9522272E81B09400355F69 /* Sources */,
 				4A9522282E81B09400355F69 /* Frameworks */,
 				4A9522292E81B09400355F69 /* Resources */,
+				6FAACDA98950EF04F8AFCB1E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -170,8 +222,6 @@
 				4A95222E2E81B09400355F69 /* sekretessUITests */,
 			);
 			name = sekretessUITests;
-			packageProductDependencies = (
-			);
 			productName = sekretessUITests;
 			productReference = 4A95222B2E81B09400355F69 /* sekretessUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
@@ -208,6 +258,9 @@
 			);
 			mainGroup = 4A9522022E81B09300355F69;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				4AEBEBB92E983696007DE798 /* XCRemoteSwiftPackageReference "AppAuth-iOS" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 4A95220C2E81B09300355F69 /* Products */;
 			projectDirPath = "";
@@ -243,6 +296,117 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2B3BD7AF88B22C071875EBA8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-sekretess/Pods-sekretess-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-sekretess/Pods-sekretess-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-sekretess/Pods-sekretess-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3C00384137625FE2E39F572A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-sekretessTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6FAACDA98950EF04F8AFCB1E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-sekretess-sekretessUITests/Pods-sekretess-sekretessUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-sekretess-sekretessUITests/Pods-sekretess-sekretessUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-sekretess-sekretessUITests/Pods-sekretess-sekretessUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AB57595F0D2E3754F6E99E63 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-sekretess-sekretessUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ACE146EA025A094754E09B33 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-sekretess-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4A9522072E81B09300355F69 /* Sources */ = {
@@ -284,12 +448,24 @@
 /* Begin XCBuildConfiguration section */
 		4A9522352E81B09400355F69 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C13A83E73B4E3F8B2FF33591 /* Pods-sekretess.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9C5Z4KRPBC;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/LibSignalClient\"/**",
+					"\"$(SRCROOT)/Pods\"/**",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/LibSignalClient/LibSignalClient.framework/Headers\"",
+					"\"$(SRCROOT)/Pods\"/**",
+				);
 				INFOPLIST_FILE = sekretess/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
@@ -299,12 +475,14 @@
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+					"$(SRCROOT)/Pods",
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = io.sekretess;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
@@ -315,12 +493,24 @@
 		};
 		4A9522362E81B09400355F69 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D36169D14741CE5390675F2 /* Pods-sekretess.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9C5Z4KRPBC;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/LibSignalClient\"/**",
+					"\"$(SRCROOT)/Pods\"/**",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/LibSignalClient/LibSignalClient.framework/Headers\"",
+					"\"$(SRCROOT)/Pods\"/**",
+				);
 				INFOPLIST_FILE = sekretess/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
@@ -330,6 +520,7 @@
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+					"$(SRCROOT)/Pods",
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = io.sekretess;
@@ -381,7 +572,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -444,7 +635,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -465,6 +656,7 @@
 		};
 		4A95223A2E81B09400355F69 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00AE82493CE49138A07F982B /* Pods-sekretessTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -486,6 +678,7 @@
 		};
 		4A95223B2E81B09400355F69 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7CF048DCDA73AE7257B8FD2F /* Pods-sekretessTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -507,6 +700,7 @@
 		};
 		4A95223D2E81B09400355F69 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E501CF691B4218AA62C32F08 /* Pods-sekretess-sekretessUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -526,6 +720,7 @@
 		};
 		4A95223E2E81B09400355F69 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1E9EDC155AD2C85B290F307 /* Pods-sekretess-sekretessUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -583,6 +778,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4AEBEBB92E983696007DE798 /* XCRemoteSwiftPackageReference "AppAuth-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/openid/AppAuth-iOS";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4AEBEBBA2E9836C2007DE798 /* AppAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4AEBEBB92E983696007DE798 /* XCRemoteSwiftPackageReference "AppAuth-iOS" */;
+			productName = AppAuth;
+		};
+		4AEBEBBC2E9836C2007DE798 /* AppAuthCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4AEBEBB92E983696007DE798 /* XCRemoteSwiftPackageReference "AppAuth-iOS" */;
+			productName = AppAuthCore;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 4A9522032E81B09300355F69 /* Project object */;
 }

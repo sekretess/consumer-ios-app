@@ -7,6 +7,7 @@
 
 import UIKit
 
-class MessageDto: NSObject {
-
+struct MessageDto {
+    var sender: String
+    var messageBrief: String
 }
