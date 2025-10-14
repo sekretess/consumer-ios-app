@@ -7,7 +7,7 @@
 
 import UIKit
 
-struct MessageDto {
+struct MessageBriefDto {
     var sender: String
     var messageBrief: String
 }
