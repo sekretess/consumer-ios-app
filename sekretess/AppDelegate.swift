@@ -28,7 +28,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate{
         // Override point for customization after application launch.
         print("app opened launchoptions", launchOptions)
         do{
-            modelContainer = try ModelContainer(for: AuthStateModel.self) // Replace with your actual models
+            modelContainer = try ModelContainer(for: AuthStateModel.self, IdentityKeyModel.self) // Replace with your actual models
         }catch {
             print("Error occurred initialize modelContainer")
         }

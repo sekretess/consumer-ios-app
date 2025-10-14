@@ -6,3 +6,13 @@
 //
 
 import Foundation
+import SwiftData
+
+@Model
+class PreKeyRecordModel{        
+    var preKeyRecord: String
+    
+    init(prekeyRecord: String){
+        self.preKeyRecord = prekeyRecord
+    }
+}

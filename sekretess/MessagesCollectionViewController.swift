@@ -12,9 +12,9 @@ private let reuseIdentifier = "MessageCell"
 
 class MessagesCollectionViewController: UICollectionViewController{
     
-    var messages :[MessageDto] = [
-        MessageDto(sender:"Amazon", messageBrief: "your order is delivering to ..."),
-        MessageDto(sender: "GreenCard", messageBrief: "Congratulations you are ...")
+    var messages :[MessageBriefDto] = [
+        MessageBriefDto(sender:"Amazon", messageBrief: "your order is delivering to ..."),
+        MessageBriefDto(sender: "GreenCard", messageBrief: "Congratulations you are ...")
     ]
     override func viewDidLoad() {
         super.viewDidLoad()

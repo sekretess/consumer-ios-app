@@ -6,3 +6,14 @@
 //
 
 import Foundation
+import SwiftData
+
+@Model
+class IdentityKeyModel {
+    var identityKey: String
+    
+    init( identityKey: String) {
+        self.identityKey = identityKey
+    }
+    
+}
