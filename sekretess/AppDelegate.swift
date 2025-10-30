@@ -12,8 +12,11 @@ import SwiftData
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate{
     var modelContainer: ModelContainer?
+    var database: DatabaseWrapper?
+    var signalProtocol: SignalProtocol?
     var currentAuthorizationFlow : OIDExternalUserAgentSession?
-
+    var authState : OIDAuthState?
+    
     func application(_ application: UIApplication, handleOpen url: URL) -> Bool {
         print("app opened", url)
         if let authorizationFlow = self.currentAuthorizationFlow, authorizationFlow.resumeExternalUserAgentFlow(with: url){
@@ -26,9 +29,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate{
     }
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
-        print("app opened launchoptions", launchOptions)
         do{
-            modelContainer = try ModelContainer(for: AuthStateModel.self, IdentityKeyModel.self) // Replace with your actual models
+            modelContainer = try!ModelContainer(for: AuthStateModel.self, IdentityKeyModel.self,PreKeyRecordModel.self,
+                                                SignedPreKeyRecordModel.self,KyberPreKeyRecordModel.self,SenderKeyModel.self,SessionModel.self)
+            database = DatabaseWrapper(modelContainer: modelContainer!)
         }catch {
             print("Error occurred initialize modelContainer")
         }
@@ -37,7 +41,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate{
 
     // MARK: UISceneSession Lifecycle
 
-    func application(_ application: UIApplication, configurationForConnecting connectingSceneSession: UISceneSession, options: UIScene.ConnectionOptions) -> UISceneConfiguration {
+    func application(_ application: UIApplication, configurationForConnecting connectingSceneSession: UISceneSession, options: UIScene.ConnectionOptions) -> UISceneConfiguration {        
         print("app started", connectingSceneSession)
         // Called when a new scene session is being created.
         // Use this method to select a configuration to create the new scene with.

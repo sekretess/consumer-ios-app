@@ -61,14 +61,12 @@
 		55A1482DC53670A950984FBB28FB7123 /* ChatListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC47ACFE9924808B9D56B00038AC05E9 /* ChatListener.swift */; };
 		55FFEF6389046CD7931A233E9847B148 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
 		595CC23A9AFA7DCB76AE073516FBC7F6 /* UsernameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBDD664478F0C2C910BC62BD942C98D5 /* UsernameTests.swift */; };
-		5CDD0E02697855F512976913EF166D3C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
 		5E05FB87A5CA637E81F0F561D738982E /* IncrementalMac.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D6F2BF02BA84779AA037320C67D0AC /* IncrementalMac.swift */; };
-		602113A309242E21A616312E776FBE7C /* Pods-sekretess-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 80E5AE78D510F807456FA7929BAF579B /* Pods-sekretess-dummy.m */; };
+		602113A309242E21A616312E776FBE7C /* Pods-sekretess-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FC2527B0F13915AB433F8499D2F687C /* Pods-sekretess-dummy.m */; };
 		60BDCFC20FAFE80D7348178B3D6DE093 /* ServerZkReceiptOperations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5968FBA4563A282015F8EA94462A9A /* ServerZkReceiptOperations.swift */; };
 		6103F74B883E5C2DC6450AB13F8641BA /* ServerZkProfileOperations.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE81AD13082CFC285715B2D80604A4A4 /* ServerZkProfileOperations.swift */; };
 		622DAF40B891C9B264883C9EDC6F2C94 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A126337725664F7C40A73AD0732D18F /* Error.swift */; };
 		63F2E4C5F57F3FF9719F8EB70989482D /* ServiceIdTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2EBF108666BCA5CA1394153DF32283 /* ServiceIdTests.swift */; };
-		647EE2D35D8F6851608E36E62BAE5121 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
 		64BFCC0316A77AC6DED94AD02A1B4C9A /* ServiceId.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A3C076041CC448E9C5D749683101F3 /* ServiceId.swift */; };
 		66DCA6837BF630CAC49D114914FAAAC8 /* CreateCallLinkCredentialPresentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B3044AA1E07B7AA04115958CDB0415 /* CreateCallLinkCredentialPresentation.swift */; };
 		69856E6A19C3CD98988CE063F8386C22 /* TestUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EAB303EA9966BBDC625525DB415F60A /* TestUtils.swift */; };
@@ -85,7 +83,7 @@
 		803A228532E8BB9ED913C3724546F468 /* ReceiptCredentialPresentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A643CEBA17DCC9B16F325AA7D362E0D /* ReceiptCredentialPresentation.swift */; };
 		819750F305C134CC8A53C66A9165BAED /* SignalMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DC4061EA0C236E75ACD5FC07FDE44C /* SignalMessage.swift */; };
 		81CF43C5CD86FFB7E05AE06C5D941813 /* NativeHandleOwner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCCC44F5113ADA5025578DABBED223D /* NativeHandleOwner.swift */; };
-		82E1E3634691C325145411A6D31ABF98 /* Pods-sekretess-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C717AAB8899C665F32508A08C8ACBF1 /* Pods-sekretess-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		82E1E3634691C325145411A6D31ABF98 /* Pods-sekretess-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 355E42B2C6B7D14387D4459C99B71636 /* Pods-sekretess-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		84B37D9835C678C615F7840B38B63B57 /* SessionRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 501EE36088745D4F81FC8E7C38125110 /* SessionRecord.swift */; };
 		87D0659FE2F9958A832518BB822A8787 /* HsmEnclaveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70212FE6449C1945463B609236C8F96E /* HsmEnclaveTests.swift */; };
 		88A70409B1B8D983F1B805EC87E8920E /* BackupForwardSecrecyTokenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88E5754EF1EC014F88299A5F5404B13 /* BackupForwardSecrecyTokenTests.swift */; };
@@ -94,7 +92,6 @@
 		8AE9237D3D2BF9CC082101493D4F177F /* Logging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0273BCB3E394F4BEB59628654424FC1B /* Logging.swift */; };
 		8C047D7E44BE29D75AE7535A7638CB5B /* BackupLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D85CBD81E0CEE9D4A2ED404C0CAF00 /* BackupLevel.swift */; };
 		8D378CE5222F9F58BD630CBFD0606433 /* Kdf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03850F832E37BE8AEED8D8F13D4628D3 /* Kdf.swift */; };
-		8FCFC88BD9DDB2D175ACF671B82E988F /* Pods-sekretessTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 70182BCD878A7895AB55DEECBD08750F /* Pods-sekretessTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		903EAAF3A7C509AD1A8A4BE8B275FAEB /* ProfileKeyCredentialRequestContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9306638994AFEFF8C18F641E2EBAEE38 /* ProfileKeyCredentialRequestContext.swift */; };
 		90EFD001B3B5D09D0D681258C4E623C8 /* Aes256Gcm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5ECD6CA46164C339E249CCE6C5420D /* Aes256Gcm.swift */; };
 		97AFBABFB9E14BD0F955A35BF012C3F1 /* ProfileKeyCredentialPresentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69035C81153FA22350FF3FD385689429 /* ProfileKeyCredentialPresentation.swift */; };
@@ -111,7 +108,6 @@
 		A8C9E46C5EF535ED320247B1B3498806 /* GroupPublicParams.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6611A278E0CC35CE9056D16B4D28281 /* GroupPublicParams.swift */; };
 		AA06570F9BC45B33F042D7E8D79B7358 /* IoUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80064074A035503C893369724A915E1C /* IoUtils.swift */; };
 		AC0FA7B4EA40B6066886354E48475D75 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
-		AD591D84CF830C41223158DDC9AAA249 /* Pods-sekretess-sekretessUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DF804BA13E9E3987A232F7018496760B /* Pods-sekretess-sekretessUITests-dummy.m */; };
 		AD87807459B97F7CFC5B3B4DA5DAF992 /* Svr2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D23C126D9CAF6FA2533EC719CA888BF /* Svr2.swift */; };
 		B0D5B7CCFFFD8AE2DA21CF0AFA028FFF /* GroupSendFullToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD2EF517C2A6A61E5CBDD97F0977E5D /* GroupSendFullToken.swift */; };
 		B38FB47BF75FB40937818A6C2CA46CBA /* CallLinkPublicParams.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F18F38A88ED43BEFE203F76749F0540 /* CallLinkPublicParams.swift */; };
@@ -131,7 +127,6 @@
 		C4677452F7846E6C725DAAA24D345A1A /* ClientZkAuthOperations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526A46036A92BBEE4B4BC3673F2236C6 /* ClientZkAuthOperations.swift */; };
 		C521392246951EA2632293AD706C73F2 /* BackupAuthCredentialRequestContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7795DD8EA4D50665F3150CD604F321 /* BackupAuthCredentialRequestContext.swift */; };
 		C7BDFFB27CA8AE728E2584EF2F2F6B65 /* Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48598CCCF84B83B303A0B95AC918146A /* Protocol.swift */; };
-		C8638E47F1864BB0D59ED739DC66C018 /* Pods-sekretess-sekretessUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3455594897632719F5D46774FB97A065 /* Pods-sekretess-sekretessUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CB04C3ECBC6A5A21B3A9D85EB15DADF1 /* PublicKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A956B1812D4E5FDDD98B2EE0235083F /* PublicKey.swift */; };
 		CE0BBC6205EF0F7B3A8E531AD895A22E /* ReceiptCredentialRequestContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AB1466B14407CFAC9FA161697CA34EF /* ReceiptCredentialRequestContext.swift */; };
 		CFD1BF13E94355BA207F4D9F95630E38 /* ClientZkReceiptOperations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2011BE41B94EBFBA3CDF7A50F6F499 /* ClientZkReceiptOperations.swift */; };
@@ -143,7 +138,6 @@
 		D54B2DD75C6D34DCD48416EF195060C3 /* RegistrationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB0AD1DAADB12E64024D501516AC80C /* RegistrationService.swift */; };
 		D6E9DC1804CE340B8FA5DCB5250C82F5 /* DataStoreUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C03EB93C93186892BA37199F1EB30D /* DataStoreUtils.swift */; };
 		D72B26463F1D1BFC5D96CF59668797B7 /* NativeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9AECAB5C479804A562287E438994ED3 /* NativeTests.swift */; };
-		D7D3E9C3F7DEAF26A51827B419725D6D /* Pods-sekretessTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBD04F92D3EAFBF0C48A1230F8DDA99 /* Pods-sekretessTests-dummy.m */; };
 		D947B90ABBF2F8B0043AB0D229CCA617 /* IoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38513C78CAEA158E063E16690BD7973 /* IoTests.swift */; };
 		DAA269E115786217E5F26F6D465F3B5C /* AuthCredentialPresentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F84EA55C18B5428A5F005DFB4159E22 /* AuthCredentialPresentation.swift */; };
 		DC41E1030C69D79FD9634F1613C47ECC /* Media.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA0F7BB8492E73F0135CDD0F33420F6 /* Media.swift */; };
@@ -178,20 +172,6 @@
 			remoteGlobalIDString = D77A98059641D2A99D7DD3EBCA4606AE;
 			remoteInfo = LibSignalClient;
 		};
-		6CD4DFFC0206CBC2B27B8CE8173A1A8F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D77A98059641D2A99D7DD3EBCA4606AE;
-			remoteInfo = LibSignalClient;
-		};
-		E1F39D7B4970501CA4682AF0C9F2DE29 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 663D016F711AF3BD114C5F1BBD3670AC;
-			remoteInfo = "Pods-sekretess";
-		};
 		F98C0ADDD2F6EFF30839E7F3EE96C1E8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
@@ -203,16 +183,14 @@
 
 /* Begin PBXFileReference section */
 		014606BB0433D6B842622B88298B76F4 /* AccountEntropyTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AccountEntropyTests.swift; path = swift/Tests/LibSignalClientTests/AccountEntropyTests.swift; sourceTree = "<group>"; };
-		014BE063AE1342DFD118ECA5D1B0FD2D /* Pods-sekretessTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-sekretessTests.modulemap"; sourceTree = "<group>"; };
 		0273BCB3E394F4BEB59628654424FC1B /* Logging.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Logging.swift; path = swift/Sources/LibSignalClient/Logging.swift; sourceTree = "<group>"; };
-		0297D2EBA0E787EBAC74E2E5AC75D3D7 /* Pods-sekretessTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-sekretessTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		034FBFF8A5018A0971CAF8DBEAF03433 /* AsyncTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AsyncTests.swift; path = swift/Tests/LibSignalClientTests/AsyncTests.swift; sourceTree = "<group>"; };
 		03850F832E37BE8AEED8D8F13D4628D3 /* Kdf.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Kdf.swift; path = swift/Sources/LibSignalClient/Kdf.swift; sourceTree = "<group>"; };
 		05AFDDB859C4FE4F957412AD9A7F15C5 /* LibSignalClient-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LibSignalClient-umbrella.h"; sourceTree = "<group>"; };
 		05F6DB00BD67F06D2105B72DB20256DE /* MessageBackup.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MessageBackup.swift; path = swift/Sources/LibSignalClient/MessageBackup.swift; sourceTree = "<group>"; };
-		060687945297C81578BBA8CA5BFFF600 /* Pods-sekretess-sekretessUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-sekretess-sekretessUITests"; path = Pods_sekretess_sekretessUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		07FED3CC6B39DB8BCDCB6704FED69D42 /* SignedPublicPreKey.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SignedPublicPreKey.swift; path = swift/Sources/LibSignalClient/SignedPublicPreKey.swift; sourceTree = "<group>"; };
 		0A2B6F18302FCF290BB06BC48BB4E421 /* Cds2.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Cds2.swift; path = swift/Sources/LibSignalClient/Cds2.swift; sourceTree = "<group>"; };
+		0A59C2BA28400BE6676B2D9E86A6DEC8 /* Pods-sekretess.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-sekretess.modulemap"; sourceTree = "<group>"; };
 		0A643CEBA17DCC9B16F325AA7D362E0D /* ReceiptCredentialPresentation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReceiptCredentialPresentation.swift; path = swift/Sources/LibSignalClient/zkgroup/ReceiptCredentialPresentation.swift; sourceTree = "<group>"; };
 		0A956B1812D4E5FDDD98B2EE0235083F /* PublicKey.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PublicKey.swift; path = swift/Sources/LibSignalClient/PublicKey.swift; sourceTree = "<group>"; };
 		0CCCC44F5113ADA5025578DABBED223D /* NativeHandleOwner.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NativeHandleOwner.swift; path = swift/Sources/LibSignalClient/NativeHandleOwner.swift; sourceTree = "<group>"; };
@@ -226,7 +204,6 @@
 		1A126337725664F7C40A73AD0732D18F /* Error.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Error.swift; path = swift/Sources/LibSignalClient/Error.swift; sourceTree = "<group>"; };
 		1AB1466B14407CFAC9FA161697CA34EF /* ReceiptCredentialRequestContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReceiptCredentialRequestContext.swift; path = swift/Sources/LibSignalClient/zkgroup/ReceiptCredentialRequestContext.swift; sourceTree = "<group>"; };
 		1B5ECD6CA46164C339E249CCE6C5420D /* Aes256Gcm.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Aes256Gcm.swift; path = swift/Sources/LibSignalClient/Aes256Gcm.swift; sourceTree = "<group>"; };
-		1C7985F111BD603C5D056434EAD984D7 /* Pods-sekretess-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-sekretess-acknowledgements.markdown"; sourceTree = "<group>"; };
 		1EAB303EA9966BBDC625525DB415F60A /* TestUtils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TestUtils.swift; path = swift/Tests/LibSignalClientTests/TestUtils.swift; sourceTree = "<group>"; };
 		2581C6B5E1DA8EF5F56F07D0E1957D54 /* AsyncUtils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AsyncUtils.swift; path = swift/Sources/LibSignalClient/AsyncUtils.swift; sourceTree = "<group>"; };
 		263B6562B7EEEF033EDF8243C95801AD /* ServerPublicParams.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerPublicParams.swift; path = swift/Sources/LibSignalClient/zkgroup/ServerPublicParams.swift; sourceTree = "<group>"; };
@@ -239,9 +216,8 @@
 		2F313A1C56F22388C89536346CEDB8DE /* ChatServiceTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChatServiceTests.swift; path = swift/Tests/LibSignalClientTests/ChatServiceTests.swift; sourceTree = "<group>"; };
 		305D21814B76C4D81EE5DE9B22A9BF5B /* DataStoreInMemory.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DataStoreInMemory.swift; path = swift/Sources/LibSignalClient/DataStoreInMemory.swift; sourceTree = "<group>"; };
 		33490B7040E825685DC3B2D5896D66E2 /* NotarySignature.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NotarySignature.swift; path = swift/Sources/LibSignalClient/zkgroup/NotarySignature.swift; sourceTree = "<group>"; };
-		3455594897632719F5D46774FB97A065 /* Pods-sekretess-sekretessUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-sekretess-sekretessUITests-umbrella.h"; sourceTree = "<group>"; };
 		354B852F1D3928AAD1CBFBBE60E98D6B /* CreateCallLinkCredentialResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CreateCallLinkCredentialResponse.swift; path = swift/Sources/LibSignalClient/zkgroup/CreateCallLinkCredentialResponse.swift; sourceTree = "<group>"; };
-		364C082CDDFA4022D76C6DD356FE7D21 /* Pods-sekretess-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-sekretess-Info.plist"; sourceTree = "<group>"; };
+		355E42B2C6B7D14387D4459C99B71636 /* Pods-sekretess-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-sekretess-umbrella.h"; sourceTree = "<group>"; };
 		37E751EB512B11CFFEF702061D8AEB69 /* ClientZkGroupCipher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ClientZkGroupCipher.swift; path = swift/Sources/LibSignalClient/zkgroup/ClientZkGroupCipher.swift; sourceTree = "<group>"; };
 		384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		38A2A74C186891B2D7E448F149FDDF52 /* ZKGroupTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZKGroupTests.swift; path = swift/Tests/LibSignalClientTests/ZKGroupTests.swift; sourceTree = "<group>"; };
@@ -250,18 +226,14 @@
 		3B1F58338BC17184ABFB7DF4A508ECD8 /* Aes256Ctr.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Aes256Ctr.swift; path = swift/Sources/LibSignalClient/Aes256Ctr.swift; sourceTree = "<group>"; };
 		3EA8FDB43055A11E5C2C64146F5C2352 /* SessionTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionTests.swift; path = swift/Tests/LibSignalClientTests/SessionTests.swift; sourceTree = "<group>"; };
 		3F84EA55C18B5428A5F005DFB4159E22 /* AuthCredentialPresentation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AuthCredentialPresentation.swift; path = swift/Sources/LibSignalClient/zkgroup/AuthCredentialPresentation.swift; sourceTree = "<group>"; };
-		3FA0D5E55018F318C2035769E2925D98 /* Pods-sekretess.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-sekretess.debug.xcconfig"; sourceTree = "<group>"; };
 		40E73EA4D1F74D403F78EBE371E79ED0 /* LibSignalClient.unit-tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "LibSignalClient.unit-tests.debug.xcconfig"; sourceTree = "<group>"; };
 		443EAC77971D36903DA1FCA942BCB80E /* CreateCallLinkCredentialRequestContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CreateCallLinkCredentialRequestContext.swift; path = swift/Sources/LibSignalClient/zkgroup/CreateCallLinkCredentialRequestContext.swift; sourceTree = "<group>"; };
 		443F27214D327C847FCB4591556DF07C /* NetTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetTests.swift; path = swift/Tests/LibSignalClientTests/NetTests.swift; sourceTree = "<group>"; };
 		468A50EC2E8072EDB4D56D33369CEA46 /* UnauthUsernamesService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UnauthUsernamesService.swift; path = swift/Sources/LibSignalClient/chat/UnauthUsernamesService.swift; sourceTree = "<group>"; };
-		46C188561D53B27EF5B4F3C56DC41BE9 /* Pods-sekretessTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-sekretessTests.release.xcconfig"; sourceTree = "<group>"; };
 		470032BF81B52F7BE5E522C3B090A314 /* Fingerprint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Fingerprint.swift; path = swift/Sources/LibSignalClient/Fingerprint.swift; sourceTree = "<group>"; };
 		4729B8C3EBB67BF8A241726CDD39F4C3 /* MediaSanitizerTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MediaSanitizerTests.swift; path = swift/Tests/LibSignalClientTests/MediaSanitizerTests.swift; sourceTree = "<group>"; };
-		480DE72C4B01B90DAE420E3A420A1856 /* Pods-sekretessTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-sekretessTests-Info.plist"; sourceTree = "<group>"; };
 		48598CCCF84B83B303A0B95AC918146A /* Protocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Protocol.swift; path = swift/Sources/LibSignalClient/Protocol.swift; sourceTree = "<group>"; };
 		49DA0901073718024E989EDBA683445E /* MessageBackupTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MessageBackupTests.swift; path = swift/Tests/LibSignalClientTests/MessageBackupTests.swift; sourceTree = "<group>"; };
-		4C717AAB8899C665F32508A08C8ACBF1 /* Pods-sekretess-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-sekretess-umbrella.h"; sourceTree = "<group>"; };
 		4D23C126D9CAF6FA2533EC719CA888BF /* Svr2.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Svr2.swift; path = swift/Sources/LibSignalClient/Svr2.swift; sourceTree = "<group>"; };
 		501EE36088745D4F81FC8E7C38125110 /* SessionRecord.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionRecord.swift; path = swift/Sources/LibSignalClient/state/SessionRecord.swift; sourceTree = "<group>"; };
 		506D3084F11938D655E7BE998B45F30B /* ComparableBackup.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ComparableBackup.swift; path = swift/Sources/LibSignalClient/ComparableBackup.swift; sourceTree = "<group>"; };
@@ -270,30 +242,24 @@
 		526B50FE107A9E887F19382C15EF58BF /* GroupSendEndorsementsResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GroupSendEndorsementsResponse.swift; path = swift/Sources/LibSignalClient/zkgroup/GroupSendEndorsementsResponse.swift; sourceTree = "<group>"; };
 		55DC4061EA0C236E75ACD5FC07FDE44C /* SignalMessage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SignalMessage.swift; path = swift/Sources/LibSignalClient/messages/SignalMessage.swift; sourceTree = "<group>"; };
 		5648B1D755EFE322E4B3A5A07AC119D4 /* CallLinkAuthCredentialResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CallLinkAuthCredentialResponse.swift; path = swift/Sources/LibSignalClient/zkgroup/CallLinkAuthCredentialResponse.swift; sourceTree = "<group>"; };
-		583DC7758D67C63AAF46DAF373AA7F72 /* Pods-sekretess-sekretessUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-sekretess-sekretessUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		58524FB17CFAD193BF9A5EE90FEC169A /* ReceiptCredentialRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReceiptCredentialRequest.swift; path = swift/Sources/LibSignalClient/zkgroup/ReceiptCredentialRequest.swift; sourceTree = "<group>"; };
-		5A760919FDA2D6344EEF2B7C642F63BB /* Pods-sekretess-sekretessUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-sekretess-sekretessUITests-Info.plist"; sourceTree = "<group>"; };
+		58A0C87CF0A298E87912FE6563EB8EB0 /* Pods-sekretess-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-sekretess-acknowledgements.markdown"; sourceTree = "<group>"; };
 		5B81E694B245B7A5F3D8ECC6E0280521 /* SgxTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SgxTests.swift; path = swift/Tests/LibSignalClientTests/SgxTests.swift; sourceTree = "<group>"; };
-		602A150A661CCC08DC342A53E884A29E /* Pods-sekretessTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-sekretessTests.debug.xcconfig"; sourceTree = "<group>"; };
 		610120922C8AECC745F5FDD2259B3638 /* SessionRecordTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionRecordTests.swift; path = swift/Tests/LibSignalClientTests/SessionRecordTests.swift; sourceTree = "<group>"; };
+		62010CE52C1E37F0DE68C066EF4E0B15 /* Pods-sekretess.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-sekretess.release.xcconfig"; sourceTree = "<group>"; };
 		629D301693982AF11ACCA5EA05377988 /* CallLinkAuthCredential.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CallLinkAuthCredential.swift; path = swift/Sources/LibSignalClient/zkgroup/CallLinkAuthCredential.swift; sourceTree = "<group>"; };
 		63A92D670EFBD6A796FB9897AA0E0742 /* IncrementalMacTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IncrementalMacTests.swift; path = swift/Tests/LibSignalClientTests/IncrementalMacTests.swift; sourceTree = "<group>"; };
 		63BB732E6A152336099EE78CD53C9F8E /* CreateCallLinkCredentialRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CreateCallLinkCredentialRequest.swift; path = swift/Sources/LibSignalClient/zkgroup/CreateCallLinkCredentialRequest.swift; sourceTree = "<group>"; };
-		648B6CE46B9C043FBC92B702D81CCDC7 /* Pods-sekretess-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-sekretess-frameworks.sh"; sourceTree = "<group>"; };
-		64BD3B9AD939E17C2E045289CE4DBFB9 /* Pods-sekretess-sekretessUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-sekretess-sekretessUITests-frameworks.sh"; sourceTree = "<group>"; };
 		6505606B90BAA94380C8FCE6751A5638 /* KeyTransparency.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeyTransparency.swift; path = swift/Sources/LibSignalClient/KeyTransparency.swift; sourceTree = "<group>"; };
 		658D1D24F552BE423AF0E14A51620E6F /* Services.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Services.swift; path = swift/Sources/LibSignalClient/chat/Services.swift; sourceTree = "<group>"; };
 		69035C81153FA22350FF3FD385689429 /* ProfileKeyCredentialPresentation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ProfileKeyCredentialPresentation.swift; path = swift/Sources/LibSignalClient/zkgroup/ProfileKeyCredentialPresentation.swift; sourceTree = "<group>"; };
 		6C778B901B0D675C9BCDCE2C48E24110 /* LibSignalClient.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LibSignalClient.release.xcconfig; sourceTree = "<group>"; };
 		6E17C488831CBFE432B1D0360A9F5AEF /* KyberPreKeyRecord.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KyberPreKeyRecord.swift; path = swift/Sources/LibSignalClient/state/KyberPreKeyRecord.swift; sourceTree = "<group>"; };
-		70182BCD878A7895AB55DEECBD08750F /* Pods-sekretessTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-sekretessTests-umbrella.h"; sourceTree = "<group>"; };
 		70212FE6449C1945463B609236C8F96E /* HsmEnclaveTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HsmEnclaveTests.swift; path = swift/Tests/LibSignalClientTests/HsmEnclaveTests.swift; sourceTree = "<group>"; };
-		70919C0F52A09A4D58FC07FBD7409631 /* Pods-sekretessTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-sekretessTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		72D6DF296EBC6F40A49AB6CE597F7CCB /* ProfileKeyCiphertext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ProfileKeyCiphertext.swift; path = swift/Sources/LibSignalClient/zkgroup/ProfileKeyCiphertext.swift; sourceTree = "<group>"; };
-		7353BE48C7324079D3CD1EFC5EE8A395 /* Pods-sekretess.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-sekretess.release.xcconfig"; sourceTree = "<group>"; };
 		73D608558ADE265CA94796EE859CBEEA /* BackupAuthCredentialPresentation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BackupAuthCredentialPresentation.swift; path = swift/Sources/LibSignalClient/zkgroup/BackupAuthCredentialPresentation.swift; sourceTree = "<group>"; };
 		742B8D01DCB895287FF96B7598462FC0 /* AuthCredentialWithPni.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AuthCredentialWithPni.swift; path = swift/Sources/LibSignalClient/zkgroup/AuthCredentialWithPni.swift; sourceTree = "<group>"; };
-		75BA0AC78AD5689F1DFA08DB7EAA487A /* Pods-sekretess-sekretessUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-sekretess-sekretessUITests.release.xcconfig"; sourceTree = "<group>"; };
+		752CC1017486468A9DBFDAD2733FC12B /* Pods-sekretess-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-sekretess-frameworks.sh"; sourceTree = "<group>"; };
 		778E51602C46144BB6A0054A66A21877 /* LibSignalClient-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LibSignalClient-prefix.pch"; sourceTree = "<group>"; };
 		77F27F3C93F2E242808993705F0F9646 /* LibSignalClient-Unit-Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LibSignalClient-Unit-Tests-Info.plist"; sourceTree = "<group>"; };
 		78549B0ABCB625D19708E3CD6D486920 /* ProfileKeyCredentialRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ProfileKeyCredentialRequest.swift; path = swift/Sources/LibSignalClient/zkgroup/ProfileKeyCredentialRequest.swift; sourceTree = "<group>"; };
@@ -302,23 +268,20 @@
 		7A5E010D8640C6435DD622F4FA734CA6 /* Net.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Net.swift; path = swift/Sources/LibSignalClient/Net.swift; sourceTree = "<group>"; };
 		7BF8A313F1033C55A173D66DBC82DDCA /* Kem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Kem.swift; path = swift/Sources/LibSignalClient/Kem.swift; sourceTree = "<group>"; };
 		7C4430D819FEAE1101386D005BF55800 /* Aes256GcmSiv.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Aes256GcmSiv.swift; path = swift/Sources/LibSignalClient/Aes256GcmSiv.swift; sourceTree = "<group>"; };
-		7C75A8B4D7A00D36F63B39230C66F82D /* Pods-sekretess.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-sekretess.modulemap"; sourceTree = "<group>"; };
+		7FC2527B0F13915AB433F8499D2F687C /* Pods-sekretess-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-sekretess-dummy.m"; sourceTree = "<group>"; };
 		80064074A035503C893369724A915E1C /* IoUtils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IoUtils.swift; path = swift/Sources/LibSignalClient/IoUtils.swift; sourceTree = "<group>"; };
-		80E5AE78D510F807456FA7929BAF579B /* Pods-sekretess-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-sekretess-dummy.m"; sourceTree = "<group>"; };
 		8143E0AE826C602B94C47B15AB54869C /* CallLinkSecretParams.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CallLinkSecretParams.swift; path = swift/Sources/LibSignalClient/zkgroup/CallLinkSecretParams.swift; sourceTree = "<group>"; };
 		839ED4058887A30CC552A05FF56A8388 /* CryptoTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CryptoTests.swift; path = swift/Tests/LibSignalClientTests/CryptoTests.swift; sourceTree = "<group>"; };
 		8ABBA5601E301E87BD27FDFA6CB9CC6A /* ExpiringProfileKeyCredentialResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpiringProfileKeyCredentialResponse.swift; path = swift/Sources/LibSignalClient/zkgroup/ExpiringProfileKeyCredentialResponse.swift; sourceTree = "<group>"; };
 		8C277E8F93680EBA5CBE4E947FA9EE8B /* SenderKeyDistributionMessage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SenderKeyDistributionMessage.swift; path = swift/Sources/LibSignalClient/messages/SenderKeyDistributionMessage.swift; sourceTree = "<group>"; };
 		8DC0B1A8B7DABC0F1990E5C944C85F5E /* RegistrationServiceTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RegistrationServiceTests.swift; path = swift/Tests/LibSignalClientTests/RegistrationServiceTests.swift; sourceTree = "<group>"; };
 		8E5968FBA4563A282015F8EA94462A9A /* ServerZkReceiptOperations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerZkReceiptOperations.swift; path = swift/Sources/LibSignalClient/zkgroup/ServerZkReceiptOperations.swift; sourceTree = "<group>"; };
-		8E975480D4ED075A59AFB82F3F7C3A45 /* Pods-sekretess-sekretessUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-sekretess-sekretessUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		918A59297E2FF6C5B02CABFDCB647778 /* GroupSendEndorsement.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GroupSendEndorsement.swift; path = swift/Sources/LibSignalClient/zkgroup/GroupSendEndorsement.swift; sourceTree = "<group>"; };
 		9234F074B145D6BE312EAF9E8E0F92BE /* TestCaseBase.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TestCaseBase.swift; path = swift/Tests/LibSignalClientTests/TestCaseBase.swift; sourceTree = "<group>"; };
 		92FEA20EDFF2304844A3FCA8F4A36344 /* GroupSecretParams.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GroupSecretParams.swift; path = swift/Sources/LibSignalClient/zkgroup/GroupSecretParams.swift; sourceTree = "<group>"; };
 		9306638994AFEFF8C18F641E2EBAEE38 /* ProfileKeyCredentialRequestContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ProfileKeyCredentialRequestContext.swift; path = swift/Sources/LibSignalClient/zkgroup/ProfileKeyCredentialRequestContext.swift; sourceTree = "<group>"; };
 		9313C07A813362FF9465846018484A56 /* ReceiptCredentialResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReceiptCredentialResponse.swift; path = swift/Sources/LibSignalClient/zkgroup/ReceiptCredentialResponse.swift; sourceTree = "<group>"; };
 		95727AACC1D5944E7EE7CA49535B20A5 /* PreKeyRecord.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PreKeyRecord.swift; path = swift/Sources/LibSignalClient/state/PreKeyRecord.swift; sourceTree = "<group>"; };
-		97CC70E1C4E1BE7667ABF22148AA7627 /* Pods-sekretessTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-sekretessTests"; path = Pods_sekretessTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		97E45E1BBBC87E46ACFA6FFA26482FA1 /* HsmEnclave.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HsmEnclave.swift; path = swift/Sources/LibSignalClient/HsmEnclave.swift; sourceTree = "<group>"; };
 		99ADDDFB171CB2FA927291F385EC326B /* DataStoreProtocols.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DataStoreProtocols.swift; path = swift/Sources/LibSignalClient/DataStoreProtocols.swift; sourceTree = "<group>"; };
 		99F8108DB9D172DDC06E906FA48C43BF /* Pods-sekretess */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-sekretess"; path = Pods_sekretess.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -347,12 +310,12 @@
 		B7199B0053628AE7C2EA43983CD4983F /* SenderKeyRecord.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SenderKeyRecord.swift; path = swift/Sources/LibSignalClient/state/SenderKeyRecord.swift; sourceTree = "<group>"; };
 		B762A8F5787E6735C98E243E1C56365B /* SenderKeyMessage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SenderKeyMessage.swift; path = swift/Sources/LibSignalClient/messages/SenderKeyMessage.swift; sourceTree = "<group>"; };
 		BC47ACFE9924808B9D56B00038AC05E9 /* ChatListener.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChatListener.swift; path = swift/Sources/LibSignalClient/ChatListener.swift; sourceTree = "<group>"; };
-		BDBD04F92D3EAFBF0C48A1230F8DDA99 /* Pods-sekretessTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-sekretessTests-dummy.m"; sourceTree = "<group>"; };
+		C1EE0C38EB59700D2985116C9238B277 /* Pods-sekretess-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-sekretess-Info.plist"; sourceTree = "<group>"; };
 		C6EEBEF8FE1F885E547DAC88D5B79E61 /* PrivateKey.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PrivateKey.swift; path = swift/Sources/LibSignalClient/PrivateKey.swift; sourceTree = "<group>"; };
 		C74997E64C9CDDCDC445013B5E9F6E41 /* ChatConnection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChatConnection.swift; path = swift/Sources/LibSignalClient/ChatConnection.swift; sourceTree = "<group>"; };
-		C778422CE28B94020DA57A15EA110670 /* Pods-sekretess-sekretessUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-sekretess-sekretessUITests-acknowledgements.plist"; sourceTree = "<group>"; };
 		CA3224BA2778E927CE719D63B4F70ECB /* CallLinkAuthCredentialPresentation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CallLinkAuthCredentialPresentation.swift; path = swift/Sources/LibSignalClient/zkgroup/CallLinkAuthCredentialPresentation.swift; sourceTree = "<group>"; };
 		CBDD664478F0C2C910BC62BD942C98D5 /* UsernameTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UsernameTests.swift; path = swift/Tests/LibSignalClientTests/UsernameTests.swift; sourceTree = "<group>"; };
+		CC44529DF8EB775AA8E77097441E3731 /* Pods-sekretess-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-sekretess-acknowledgements.plist"; sourceTree = "<group>"; };
 		CD2EBF108666BCA5CA1394153DF32283 /* ServiceIdTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServiceIdTests.swift; path = swift/Tests/LibSignalClientTests/ServiceIdTests.swift; sourceTree = "<group>"; };
 		CE2C42F5F86EA4D3163D1BC2ABE5DE75 /* ClientZkProfileOperations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ClientZkProfileOperations.swift; path = swift/Sources/LibSignalClient/zkgroup/ClientZkProfileOperations.swift; sourceTree = "<group>"; };
 		CEC61FBFDA087D62EAE3617573F413AB /* PinTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PinTests.swift; path = swift/Tests/LibSignalClientTests/PinTests.swift; sourceTree = "<group>"; };
@@ -367,15 +330,14 @@
 		DB7795DD8EA4D50665F3150CD604F321 /* BackupAuthCredentialRequestContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BackupAuthCredentialRequestContext.swift; path = swift/Sources/LibSignalClient/zkgroup/BackupAuthCredentialRequestContext.swift; sourceTree = "<group>"; };
 		DBB0AD1DAADB12E64024D501516AC80C /* RegistrationService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RegistrationService.swift; path = swift/Sources/LibSignalClient/RegistrationService.swift; sourceTree = "<group>"; };
 		DEA0A332D34D8BB265135A0722DE98E1 /* AccountKeys.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AccountKeys.swift; path = swift/Sources/LibSignalClient/AccountKeys.swift; sourceTree = "<group>"; };
-		DF804BA13E9E3987A232F7018496760B /* Pods-sekretess-sekretessUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-sekretess-sekretessUITests-dummy.m"; sourceTree = "<group>"; };
 		E0375DE452F64E42AAB83E72E5B65496 /* CdsTypes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CdsTypes.swift; path = swift/Sources/LibSignalClient/CdsTypes.swift; sourceTree = "<group>"; };
+		E0CC7CD2063C259ABA1977798326EE3C /* Pods-sekretess.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-sekretess.debug.xcconfig"; sourceTree = "<group>"; };
 		E1B3044AA1E07B7AA04115958CDB0415 /* CreateCallLinkCredentialPresentation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CreateCallLinkCredentialPresentation.swift; path = swift/Sources/LibSignalClient/zkgroup/CreateCallLinkCredentialPresentation.swift; sourceTree = "<group>"; };
 		E1D1FB26F14CC5F779C2058B8F18F555 /* GroupSendDerivedKeyPair.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GroupSendDerivedKeyPair.swift; path = swift/Sources/LibSignalClient/zkgroup/GroupSendDerivedKeyPair.swift; sourceTree = "<group>"; };
 		E2DDC25AB19129EDED67FCFCA603561C /* ProfileKeyVersion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ProfileKeyVersion.swift; path = swift/Sources/LibSignalClient/zkgroup/ProfileKeyVersion.swift; sourceTree = "<group>"; };
 		E37CBF22344BDB445EFBBB8FA4836CC4 /* ServerZkAuthOperations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerZkAuthOperations.swift; path = swift/Sources/LibSignalClient/zkgroup/ServerZkAuthOperations.swift; sourceTree = "<group>"; };
 		EA86A27B1D6D7CB0503103AC43313103 /* LibSignalClient-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LibSignalClient-Info.plist"; sourceTree = "<group>"; };
 		EB21F7D11A0F7A27AC15A2A1054E7994 /* LibSignalClient-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LibSignalClient-dummy.m"; sourceTree = "<group>"; };
-		EB61A7F2742FCBDD127A49769D60BA94 /* Pods-sekretess-sekretessUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-sekretess-sekretessUITests.modulemap"; sourceTree = "<group>"; };
 		EB893C44A9A75E2556B1ACDCCAB91A07 /* Username.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Username.swift; path = swift/Sources/LibSignalClient/Username.swift; sourceTree = "<group>"; };
 		EEFB50FA924CC941C03421D6FFC49E79 /* IoUtils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IoUtils.swift; path = swift/Tests/LibSignalClientTests/IoUtils.swift; sourceTree = "<group>"; };
 		EF13E6465CC1324703B35174E4E0D634 /* LibSignalClient-Unit-Tests-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LibSignalClient-Unit-Tests-prefix.pch"; sourceTree = "<group>"; };
@@ -389,7 +351,6 @@
 		F9AECAB5C479804A562287E438994ED3 /* NativeTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NativeTests.swift; path = swift/Tests/LibSignalClientTests/NativeTests.swift; sourceTree = "<group>"; };
 		F9C960A7733AE3713919E70F746452C5 /* ReceiptCredential.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReceiptCredential.swift; path = swift/Sources/LibSignalClient/zkgroup/ReceiptCredential.swift; sourceTree = "<group>"; };
 		FA6BB809BF64E2F62F19537BA106B113 /* GenericServerSecretParams.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GenericServerSecretParams.swift; path = swift/Sources/LibSignalClient/zkgroup/GenericServerSecretParams.swift; sourceTree = "<group>"; };
-		FC6867955BBB56FCF84FBE445391F837 /* Pods-sekretess-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-sekretess-acknowledgements.plist"; sourceTree = "<group>"; };
 		FCC6683553B9B41D09D1C4049BD0121B /* ProfileKeyCommitment.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ProfileKeyCommitment.swift; path = swift/Sources/LibSignalClient/zkgroup/ProfileKeyCommitment.swift; sourceTree = "<group>"; };
 		FDCCA0B9516C413894DF8A395DEA059E /* ExpiringProfileKeyCredential.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpiringProfileKeyCredential.swift; path = swift/Sources/LibSignalClient/zkgroup/ExpiringProfileKeyCredential.swift; sourceTree = "<group>"; };
 		FE81AD13082CFC285715B2D80604A4A4 /* ServerZkProfileOperations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerZkProfileOperations.swift; path = swift/Sources/LibSignalClient/zkgroup/ServerZkProfileOperations.swift; sourceTree = "<group>"; };
@@ -398,27 +359,11 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		210B1B18C76A387BFE358163F2B3A164 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5CDD0E02697855F512976913EF166D3C /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		26C091E254423D572A5D910B1E586887 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				DDD2596F7B394EB26699EA5608416CBB /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		939A5D910F482D436AD847A96972DB6D /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				647EE2D35D8F6851608E36E62BAE5121 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -477,35 +422,6 @@
 			name = Tests;
 			sourceTree = "<group>";
 		};
-		24228ED62BAD18DC0D1DE8CD8797B0B7 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				D11761D6988B5F29BB319D5189B9EF5E /* LibSignalClient */,
-				CED64D5CA41B98FB0DCAE7D156C9F68F /* LibSignalClient-Unit-Tests */,
-				99F8108DB9D172DDC06E906FA48C43BF /* Pods-sekretess */,
-				060687945297C81578BBA8CA5BFFF600 /* Pods-sekretess-sekretessUITests */,
-				97CC70E1C4E1BE7667ABF22148AA7627 /* Pods-sekretessTests */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		2CA67C4BB916308DACA7862AA28B92DE /* Pods-sekretess */ = {
-			isa = PBXGroup;
-			children = (
-				7C75A8B4D7A00D36F63B39230C66F82D /* Pods-sekretess.modulemap */,
-				1C7985F111BD603C5D056434EAD984D7 /* Pods-sekretess-acknowledgements.markdown */,
-				FC6867955BBB56FCF84FBE445391F837 /* Pods-sekretess-acknowledgements.plist */,
-				80E5AE78D510F807456FA7929BAF579B /* Pods-sekretess-dummy.m */,
-				648B6CE46B9C043FBC92B702D81CCDC7 /* Pods-sekretess-frameworks.sh */,
-				364C082CDDFA4022D76C6DD356FE7D21 /* Pods-sekretess-Info.plist */,
-				4C717AAB8899C665F32508A08C8ACBF1 /* Pods-sekretess-umbrella.h */,
-				3FA0D5E55018F318C2035769E2925D98 /* Pods-sekretess.debug.xcconfig */,
-				7353BE48C7324079D3CD1EFC5EE8A395 /* Pods-sekretess.release.xcconfig */,
-			);
-			name = "Pods-sekretess";
-			path = "Target Support Files/Pods-sekretess";
-			sourceTree = "<group>";
-		};
 		40B7AD8252C6D6EE12F9BBCABE3B9945 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -526,31 +442,14 @@
 			path = "../Target Support Files/LibSignalClient";
 			sourceTree = "<group>";
 		};
-		68340E82CA1AF99D51129754BC434317 /* Pods-sekretess-sekretessUITests */ = {
+		A8DFF2F4E9F0B0688A33022C66919CAD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EB61A7F2742FCBDD127A49769D60BA94 /* Pods-sekretess-sekretessUITests.modulemap */,
-				583DC7758D67C63AAF46DAF373AA7F72 /* Pods-sekretess-sekretessUITests-acknowledgements.markdown */,
-				C778422CE28B94020DA57A15EA110670 /* Pods-sekretess-sekretessUITests-acknowledgements.plist */,
-				DF804BA13E9E3987A232F7018496760B /* Pods-sekretess-sekretessUITests-dummy.m */,
-				64BD3B9AD939E17C2E045289CE4DBFB9 /* Pods-sekretess-sekretessUITests-frameworks.sh */,
-				5A760919FDA2D6344EEF2B7C642F63BB /* Pods-sekretess-sekretessUITests-Info.plist */,
-				3455594897632719F5D46774FB97A065 /* Pods-sekretess-sekretessUITests-umbrella.h */,
-				8E975480D4ED075A59AFB82F3F7C3A45 /* Pods-sekretess-sekretessUITests.debug.xcconfig */,
-				75BA0AC78AD5689F1DFA08DB7EAA487A /* Pods-sekretess-sekretessUITests.release.xcconfig */,
+				D11761D6988B5F29BB319D5189B9EF5E /* LibSignalClient */,
+				CED64D5CA41B98FB0DCAE7D156C9F68F /* LibSignalClient-Unit-Tests */,
+				99F8108DB9D172DDC06E906FA48C43BF /* Pods-sekretess */,
 			);
-			name = "Pods-sekretess-sekretessUITests";
-			path = "Target Support Files/Pods-sekretess-sekretessUITests";
-			sourceTree = "<group>";
-		};
-		9771B7F0D1C1AA2732CFCC71CD8E31F9 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				2CA67C4BB916308DACA7862AA28B92DE /* Pods-sekretess */,
-				68340E82CA1AF99D51129754BC434317 /* Pods-sekretess-sekretessUITests */,
-				DA403840DCC11B072B5F9B8C65771370 /* Pods-sekretessTests */,
-			);
-			name = "Targets Support Files";
+			name = Products;
 			sourceTree = "<group>";
 		};
 		ADFFEE3D82589833540EED5BC82C7E79 /* LibSignalClient */ = {
@@ -696,8 +595,8 @@
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				B92F8B04B13A15610B69164E35257721 /* Pods */,
-				24228ED62BAD18DC0D1DE8CD8797B0B7 /* Products */,
-				9771B7F0D1C1AA2732CFCC71CD8E31F9 /* Targets Support Files */,
+				A8DFF2F4E9F0B0688A33022C66919CAD /* Products */,
+				FA6DD66CC622D76B21DB182E673A3C5D /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -709,20 +608,21 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		DA403840DCC11B072B5F9B8C65771370 /* Pods-sekretessTests */ = {
+		DF7B5DA95B0D776BB063C56FDC05D4EF /* Pods-sekretess */ = {
 			isa = PBXGroup;
 			children = (
-				014BE063AE1342DFD118ECA5D1B0FD2D /* Pods-sekretessTests.modulemap */,
-				70919C0F52A09A4D58FC07FBD7409631 /* Pods-sekretessTests-acknowledgements.markdown */,
-				0297D2EBA0E787EBAC74E2E5AC75D3D7 /* Pods-sekretessTests-acknowledgements.plist */,
-				BDBD04F92D3EAFBF0C48A1230F8DDA99 /* Pods-sekretessTests-dummy.m */,
-				480DE72C4B01B90DAE420E3A420A1856 /* Pods-sekretessTests-Info.plist */,
-				70182BCD878A7895AB55DEECBD08750F /* Pods-sekretessTests-umbrella.h */,
-				602A150A661CCC08DC342A53E884A29E /* Pods-sekretessTests.debug.xcconfig */,
-				46C188561D53B27EF5B4F3C56DC41BE9 /* Pods-sekretessTests.release.xcconfig */,
+				0A59C2BA28400BE6676B2D9E86A6DEC8 /* Pods-sekretess.modulemap */,
+				58A0C87CF0A298E87912FE6563EB8EB0 /* Pods-sekretess-acknowledgements.markdown */,
+				CC44529DF8EB775AA8E77097441E3731 /* Pods-sekretess-acknowledgements.plist */,
+				7FC2527B0F13915AB433F8499D2F687C /* Pods-sekretess-dummy.m */,
+				752CC1017486468A9DBFDAD2733FC12B /* Pods-sekretess-frameworks.sh */,
+				C1EE0C38EB59700D2985116C9238B277 /* Pods-sekretess-Info.plist */,
+				355E42B2C6B7D14387D4459C99B71636 /* Pods-sekretess-umbrella.h */,
+				E0CC7CD2063C259ABA1977798326EE3C /* Pods-sekretess.debug.xcconfig */,
+				62010CE52C1E37F0DE68C066EF4E0B15 /* Pods-sekretess.release.xcconfig */,
 			);
-			name = "Pods-sekretessTests";
-			path = "Target Support Files/Pods-sekretessTests";
+			name = "Pods-sekretess";
+			path = "Target Support Files/Pods-sekretess";
 			sourceTree = "<group>";
 		};
 		E4801F62A6B08CD9B5410329F1A18FDE /* iOS */ = {
@@ -733,6 +633,14 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		FA6DD66CC622D76B21DB182E673A3C5D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DF7B5DA95B0D776BB063C56FDC05D4EF /* Pods-sekretess */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -741,22 +649,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				EFAC46CB1452686328E8EBB3A9664A49 /* LibSignalClient-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3706951CE7E217F6D19E3B809FCF9A4A /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C8638E47F1864BB0D59ED739DC66C018 /* Pods-sekretess-sekretessUITests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		39CB5E5990CFB4918C5AA05BC6776956 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8FCFC88BD9DDB2D175ACF671B82E988F /* Pods-sekretessTests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -771,44 +663,6 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		186DE349B156A984A2C7357F54E18C1D /* Pods-sekretess-sekretessUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 2916B54E4F2B987454515A4C092DC2E9 /* Build configuration list for PBXNativeTarget "Pods-sekretess-sekretessUITests" */;
-			buildPhases = (
-				3706951CE7E217F6D19E3B809FCF9A4A /* Headers */,
-				BD130FA902EAFD8AE4DD2DDCC140265A /* Sources */,
-				939A5D910F482D436AD847A96972DB6D /* Frameworks */,
-				E328E2621C6A64EBBD9CFE03C490C962 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				C21EFE5589D472BF439C17ADF5343C40 /* PBXTargetDependency */,
-			);
-			name = "Pods-sekretess-sekretessUITests";
-			productName = Pods_sekretess_sekretessUITests;
-			productReference = 060687945297C81578BBA8CA5BFFF600 /* Pods-sekretess-sekretessUITests */;
-			productType = "com.apple.product-type.framework";
-		};
-		1B80EBD32AA306D2879CD4606A3BDB39 /* Pods-sekretessTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 46F6DA93C8873FE4FB8957E0BBB83C23 /* Build configuration list for PBXNativeTarget "Pods-sekretessTests" */;
-			buildPhases = (
-				39CB5E5990CFB4918C5AA05BC6776956 /* Headers */,
-				51A24DD977DBC9B2617B6CBE62D11958 /* Sources */,
-				210B1B18C76A387BFE358163F2B3A164 /* Frameworks */,
-				D816DA51E7DFCD29726F234B6B251311 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				DA17BCCCD659665C79C0634D762ED3A3 /* PBXTargetDependency */,
-			);
-			name = "Pods-sekretessTests";
-			productName = Pods_sekretessTests;
-			productReference = 97CC70E1C4E1BE7667ABF22148AA7627 /* Pods-sekretessTests */;
-			productType = "com.apple.product-type.framework";
-		};
 		26305FD238365FD00958D17A7C569BB1 /* LibSignalClient-Unit-Tests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 684CC020778888E1A511D0B83A34827E /* Build configuration list for PBXNativeTarget "LibSignalClient-Unit-Tests" */;
@@ -887,35 +741,19 @@
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
 			minimizedProjectReferenceProxies = 0;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 24228ED62BAD18DC0D1DE8CD8797B0B7 /* Products */;
+			productRefGroup = A8DFF2F4E9F0B0688A33022C66919CAD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				D77A98059641D2A99D7DD3EBCA4606AE /* LibSignalClient */,
 				26305FD238365FD00958D17A7C569BB1 /* LibSignalClient-Unit-Tests */,
 				663D016F711AF3BD114C5F1BBD3670AC /* Pods-sekretess */,
-				186DE349B156A984A2C7357F54E18C1D /* Pods-sekretess-sekretessUITests */,
-				1B80EBD32AA306D2879CD4606A3BDB39 /* Pods-sekretessTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		5D732A7EF6C2E804A0EB5175AF50E818 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D816DA51E7DFCD29726F234B6B251311 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E328E2621C6A64EBBD9CFE03C490C962 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -986,14 +824,6 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		51A24DD977DBC9B2617B6CBE62D11958 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D7D3E9C3F7DEAF26A51827B419725D6D /* Pods-sekretessTests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		9C8BF41AB6B96AE6F3709AF5F55B1AA7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1165,14 +995,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BD130FA902EAFD8AE4DD2DDCC140265A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AD591D84CF830C41223158DDC9AAA249 /* Pods-sekretess-sekretessUITests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -1187,18 +1009,6 @@
 			name = LibSignalClient;
 			target = D77A98059641D2A99D7DD3EBCA4606AE /* LibSignalClient */;
 			targetProxy = 4DBEB3BD6CCA1EDE6D8851EB08141B81 /* PBXContainerItemProxy */;
-		};
-		C21EFE5589D472BF439C17ADF5343C40 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = LibSignalClient;
-			target = D77A98059641D2A99D7DD3EBCA4606AE /* LibSignalClient */;
-			targetProxy = 6CD4DFFC0206CBC2B27B8CE8173A1A8F /* PBXContainerItemProxy */;
-		};
-		DA17BCCCD659665C79C0634D762ED3A3 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-sekretess";
-			target = 663D016F711AF3BD114C5F1BBD3670AC /* Pods-sekretess */;
-			targetProxy = E1F39D7B4970501CA4682AF0C9F2DE29 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -1269,85 +1079,6 @@
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
-		};
-		4D78AEBBA6758C8798BC5DCC5875B6BC /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 75BA0AC78AD5689F1DFA08DB7EAA487A /* Pods-sekretess-sekretessUITests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_MODULE_VERIFIER = NO;
-				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				INFOPLIST_FILE = "Target Support Files/Pods-sekretess-sekretessUITests/Pods-sekretess-sekretessUITests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-sekretess-sekretessUITests/Pods-sekretess-sekretessUITests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		5F3440AD8F87447721DCE45D6877F880 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 602A150A661CCC08DC342A53E884A29E /* Pods-sekretessTests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_MODULE_VERIFIER = NO;
-				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				INFOPLIST_FILE = "Target Support Files/Pods-sekretessTests/Pods-sekretessTests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-sekretessTests/Pods-sekretessTests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		90D4D09BCB6A4660E43ACBE9ECB6FE9A /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1542,48 +1273,9 @@
 			};
 			name = Debug;
 		};
-		CF79E2B9142D848660FD8EF8760E3975 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8E975480D4ED075A59AFB82F3F7C3A45 /* Pods-sekretess-sekretessUITests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_MODULE_VERIFIER = NO;
-				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				INFOPLIST_FILE = "Target Support Files/Pods-sekretess-sekretessUITests/Pods-sekretess-sekretessUITests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-sekretess-sekretessUITests/Pods-sekretess-sekretessUITests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		D4C122CDE81CA54AB2B55ED079DC2B11 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7353BE48C7324079D3CD1EFC5EE8A395 /* Pods-sekretess.release.xcconfig */;
+			baseConfigurationReference = 62010CE52C1E37F0DE68C066EF4E0B15 /* Pods-sekretess.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -1623,7 +1315,7 @@
 		};
 		E58CC195FF0A6EFC73BEFDFC42F9C050 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3FA0D5E55018F318C2035769E2925D98 /* Pods-sekretess.debug.xcconfig */;
+			baseConfigurationReference = E0CC7CD2063C259ABA1977798326EE3C /* Pods-sekretess.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -1660,67 +1352,9 @@
 			};
 			name = Debug;
 		};
-		ED8CC12C36230A8A56B1CEB13A8DC82E /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 46C188561D53B27EF5B4F3C56DC41BE9 /* Pods-sekretessTests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_MODULE_VERIFIER = NO;
-				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				INFOPLIST_FILE = "Target Support Files/Pods-sekretessTests/Pods-sekretessTests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-sekretessTests/Pods-sekretessTests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2916B54E4F2B987454515A4C092DC2E9 /* Build configuration list for PBXNativeTarget "Pods-sekretess-sekretessUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				CF79E2B9142D848660FD8EF8760E3975 /* Debug */,
-				4D78AEBBA6758C8798BC5DCC5875B6BC /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		46F6DA93C8873FE4FB8957E0BBB83C23 /* Build configuration list for PBXNativeTarget "Pods-sekretessTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				5F3440AD8F87447721DCE45D6877F880 /* Debug */,
-				ED8CC12C36230A8A56B1CEB13A8DC82E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

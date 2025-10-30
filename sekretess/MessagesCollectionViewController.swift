@@ -64,6 +64,8 @@ class MessagesCollectionViewController: UICollectionViewController{
     
     override func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         print("Cell clicked " , messages[indexPath.item])
+        let delegate = UIApplication.shared.delegate as! AppDelegate
+        delegate.database?.clearKeys()
     }
 
 }

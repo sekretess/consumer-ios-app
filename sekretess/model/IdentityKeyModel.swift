@@ -11,9 +11,11 @@ import SwiftData
 @Model
 class IdentityKeyModel {
     var identityKey: String
+    var registrationId: UInt32
     
-    init( identityKey: String) {
+    init( identityKey: String, registrationId: UInt32) {
         self.identityKey = identityKey
+        self.registrationId = registrationId
     }
     
 }

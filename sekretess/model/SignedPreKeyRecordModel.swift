@@ -12,8 +12,10 @@ import SwiftData
 class SignedPreKeyRecordModel {
     
     var signedPreKey: String
+    var id: UInt32
     
-    init(signedPreKey: String) {
+    init(signedPreKey: String, id: UInt32) {
         self.signedPreKey = signedPreKey
+        self.id = id
     }
 }

@@ -9,10 +9,12 @@ import Foundation
 import SwiftData
 
 @Model
-class PreKeyRecordModel{        
+class PreKeyRecordModel{
+    var id: UInt32
     var preKeyRecord: String
     
-    init(prekeyRecord: String){
+    init(id: UInt32, prekeyRecord: String){
+        self.id = id
         self.preKeyRecord = prekeyRecord
     }
 }

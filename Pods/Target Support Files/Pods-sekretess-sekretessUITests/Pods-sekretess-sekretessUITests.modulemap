@@ -1,6 +1,0 @@
-framework module Pods_sekretess_sekretessUITests {
-  umbrella header "Pods-sekretess-sekretessUITests-umbrella.h"
-
-  export *
-  module * { export * }
-}

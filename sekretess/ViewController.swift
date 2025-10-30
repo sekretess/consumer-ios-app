@@ -15,11 +15,9 @@ class ViewController: UIViewController {
 
     let logger = Logger(subsystem: "io.sekretess", category: "ViewController")
     let appDelegate = UIApplication.shared.delegate as! AppDelegate
-    let database = DatabaseWrapper()
     
-    private var authState : OIDAuthState?
     @IBAction func onLoginButtonClicked(_ sender: Any) {
-        if self.authState == nil{
+        if appDelegate.authState == nil{
             let issuer = URL(string: "https://auth.test.sekretess.io/realms/consumer")!
             let redirectUrl = URL(string: "sekretess://oauth2redirect")!                
             OIDAuthorizationService.discoverConfiguration(forIssuer: issuer){configuration, error in
@@ -43,18 +41,18 @@ class ViewController: UIViewController {
                 self.appDelegate.currentAuthorizationFlow =
                 OIDAuthState.authState(byPresenting: request, presenting: self){ authState, error in
                     if let authState = authState{
-                        self.authState = authState
-                        self.database.storeAuthState(authState:authState)
+                        self.appDelegate.authState = authState
+                        self.appDelegate.database!.storeAuthState(authState:authState)
                         os_log("Got auth tokens. Access token.")
-                        self.performSegue(withIdentifier: "segueShowMessageCollectionViewController", sender: self)
+                        self.handleAuthSuccess()
                     }else{
                         os_log("Auth error")
-                        self.authState = nil
+                        self.appDelegate.authState = nil
                     }
                 }
             }
         }else{
-            performSegue(withIdentifier: "segueShowMessageCollectionViewController", sender: self)
+            handleAuthSuccess()
             os_log("Already authorized")
         }
     }
@@ -65,12 +63,33 @@ class ViewController: UIViewController {
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
-        self.authState = database.restoreAuthState()
-        if self.authState == nil{
+        appDelegate.authState = appDelegate.database!.restoreAuthState()
+        if appDelegate.authState == nil{
             os_log("Not authorized opening auth page")
         }else{
             os_log("Authorized skipped auth page")
-            performSegue(withIdentifier: "segueShowMessageCollectionViewController", sender: self)
+            handleAuthSuccess()
+        }
+    }
+    
+    func handleAuthSuccess(){
+        
+        let tokenRefreshRequest = appDelegate.authState?.tokenRefreshRequest()
+        OIDAuthorizationService.perform(tokenRefreshRequest!){tokenResponse, error in
+            if let error = error {
+                os_log("Error occurred during update token state")
+                self.appDelegate.authState = nil
+            }else{
+                self.appDelegate.signalProtocol = SignalProtocol()
+                self.performSegue(withIdentifier: "segueShowMessageCollectionViewController", sender: self)
+                os_log("Auth State updated success!" )
+                let webSocket = WebSocketClient(url: URL(string:"wss://echo.websocket.org")!)
+                webSocket.connect()
+                 DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
+                     webSocket.send(message: "Hello from Swift!")
+                 }
+                webSocket.receive()
+            }
         }
     }
     
